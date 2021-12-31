@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: spring-cloud-api-gateway
+
+  datasource:
+    url: jdbc:mysql://localhost:3306/userdb
+    username: root
+    password: root
+    #driver-class-name: com.mysql.cj.jdbc.Driver # it is optional in new version
+  jpa:
+    hibernate:
+      ddl-auto: update     
+server:
+  port: 8080
+
+  
